@@ -1,0 +1,13 @@
+{
+	"namespace" : "Resources",
+	"resources":[
+	{
+		"file" : "res1.txt",
+		"var"  : "res1"
+	}, 
+	{
+		"file" : "res2.dat",
+		"var"  : "res2"
+	}
+	 ]
+}

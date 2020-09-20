@@ -1,0 +1,22 @@
+   =======================
+   === CResourceIntake ===
+   =======================
+A project whose purpose is to automate the inclusion of binary data from 
+files (resources) into a program written in C++.
+
+Data inclusion is realized by converting resource files into source code 
+in C++, which will be further compiled into a library that can be linked 
+to any program. Data obtained from resource files are available as 
+global variables.
+
+The project contains:
+
+ - dir ./cri - main directory for generating the resource library. 
+   To include resources in your program, just add the intake.py file, 
+   which generates the library sources. For an example of how to run 
+   this script correctly, see CMakeLists.txt. The resources.json file 
+   should contain information about the resource files included 
+   in the library.
+   
+ - dirг ./example - directory with an example of linking and using 
+   the resource library.
